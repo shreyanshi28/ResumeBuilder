@@ -1,0 +1,110 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+    background-image: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+.mainHeading {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(17, 91, 194);
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
+
+.FAQs {
+    color: rgb(30, 40, 133);
+}
+
+.ques1 {
+    background-color: rgb(30, 40, 133);
+    margin-top:50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-left: 10px;
+    border-radius: 15px;
+    color: white ;
+}
+
+.ans1 {
+    
+    font-size: x-large;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.ques2 {
+    background-color: rgb(30, 40, 133);
+    margin-top:50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-left: 10px;
+    border-radius: 15px;
+    color: white ;
+}
+
+.ans2 {
+    font-size: x-large;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.ques3{
+    background-color: rgb(30, 40, 133);
+    margin-top:50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-left: 10px;
+    border-radius: 15px;
+    color: white ;  
+}
+
+.ans3 {
+    font-size: x-large;
+    margin-left: 40px;
+    margin-right: 20px;
+
+}
+
+.suggestionsHeading{
+    
+    margin-top:50px;
+    margin-left: 0px;
+    margin-right: 40px;
+    padding-left: 50px;
+    border-radius: 15px;
+    color: rgb(5, 18, 78) ;  
+}
+
+
+.suggestions {
+    margin-top:0px;
+    margin-left: 50px;
+    margin-bottom:0px;
+    padding: 20px;
+    border-radius:6px;
+}
+
+button {
+    background-color :  rgb(5, 18, 78) ;
+    display:block;
+    margin:0px 0px 0px 50px;
+    text-align: center;
+    border-radius: 12px;
+    border : 2px solid #f8ffae;
+    padding : 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+
+}
+
+button:hover {
+    background-color: #0db496;
+}
+
