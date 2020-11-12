@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Templates </title>
+        <style>
+        * {
+        	margin:0;
+        	padding:0;
+        }
+
+        body {
+            background-image: url("https://i.pinimg.com/originals/2f/40/4a/2f404ab08effb349c3dc0e1f25832e73.jpg");
+        }
+
+        .mainHeading {
+
+        	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        	color: rgb(30, 40, 133);
+          margin-top:10px;
+        	font-size: 50px;
+        	text-align: center;
+
+        }
+
+        .someText {
+        	font-size: x-large;
+        	margin-top:20px;
+          text-align: center;
+        	margin-bottom: 40px;
+        	font-weight: bold;
+        }
+
+        .textSubpart {
+        	text-align: center;
+        }
+
+        .partitionLine1 {
+        	color: rgb(150, 235, 230);
+        }
+
+        .templates {
+          margin: 40px 40px 20px 40px;
+          display:flex;
+          flex-direction: row;
+          flex-wrap:wrap;
+          justify-content:space-around;
+        }
+
+        .link1 , .link2 , .link3 {
+        	text-decoration: none;
+        	color:  rgb(166, 242, 255);
+        	font-weight: bold;
+        	background-color: rgb(30, 40, 133);
+        	padding:10px;
+        	font-size:20px;
+        	border-radius: 15px;
+        	margin-bottom: 40px;
+        }
+
+        .link1 , .link2, .link {
+        	margin-left:150px;
+        }
+
+        .link2{
+        	margin-left:230px;
+
+
+        }
+
+        .link3{
+          margin-right:10px;
+        	margin-left:210px;
+        }
+
+
+        .anchorTags {
+        	margin-top: 0px;
+
+        }
+
+        .partitionLine2 {
+        	color: rgb(150, 235, 230);
+        	margin: 40px 0px 40px 0px ;
+        }
+
+        footer {
+        	height: 65px;
+        	width: 100%;
+        	background-color:rgb(30, 40, 133);
+        	top: 0;
+
+          }
+        .picfooter{
+        	width:90px;
+        	height:55px;
+        	margin:5px;
+        	float:left;
+          padding-left: 10px;
+          }
+
+        .txt {
+        	padding-top: 20px;
+        	font-size:24px;
+        	margin-left:10px;
+        	color:white;
+        	float:right;
+          }
+
+        .caption{
+        	float: left;
+          }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class ="entirePage">
+            <h1 class = "mainHeading" > RESUME TEMPLATES </h1>
+            <div class = "someText" >
+                Choose any template of your choice from the ones given below and just fill the form that follows.<br>
+                <span class = "textSubpart"> Your Resume will be rendered shortly
+                in the selected layout. </span>
+            </div>
+            <hr class = "partitionLine1">
+            <div class = "templates">
+              <img src = "/static/template1.jpeg"  width = "300" height = "350">
+              <img src = "/static/template2.png"  width = "300" height = "350">
+              <img src = "/static/template3.png" width = "300" height = "350">
+            </div>
+
+            <div class = "anchorTags">
+            <a href = "/flasklogin/filler/choice/form1" class = "link1">Select Template 1</a>
+            <a href = "/flasklogin/filler/choice/form2" class = "link2">Select Template 2</a>
+            <a href = "/flasklogin/filler/choice/form3" class = "link3">Select Template 3</a>
+
+            </div>
+            <hr class = "partitionLine2">
+
+            <footer>
+            <div class="caption">
+                <img class="picfooter" src="https://blog.skyprivate.com/wp-content/uploads/2018/10/facebook-twitter-instagram-png-3.png">
+              <a href="#"class="txt"><u> Contact us </u></a>
+              </div>
+             </footer>
+	    </div>
+	</body>
+</html>

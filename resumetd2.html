@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Template 2</title>
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Abel|Bungee+Hairline|Sacramento|Raleway|Slabo+27px" rel="stylesheet">
+<style>
+* {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+html {
+    height: 150%;
+  }
+
+  body {
+    margin: 100;
+    min-height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: rgb(87, 85, 85);
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    max-width: 700px;
+    background: #a08181;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #f0e4d4;
+      border-radius: 3px;
+    padding: 40px;
+    margin-top: 10px;
+  }
+
+
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 30px;
+  width: 100%;
+  background-color: #d8c7ff;
+  position: absolute;
+
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+
+  clear: both;
+  position: relative;
+}
+
+.left{
+  height: 1000px;
+  width: 45px;
+  background-color:#e8deff ;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+.first-name,.last-name {
+  margin-top: 100px;
+  margin-bottom:100px;
+  font-size: 25px;
+  font-family: 'Cambria';
+  text-transform: uppercase;
+}
+  .sub{
+    font-family: 'Cormorant Garamond';
+      font-size: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+.pho{
+    font-family: 'Times New Roman';
+      font-size: 15px;
+     float:left;
+    vertical-align: top;
+}
+   .sub{
+    font-family: 'Cormorant Garamond';
+      font-size: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+  
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+}
+</style>
+
+</head>
+<body>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <span class="first-name"><b> {{ firstname }} </b></span>
+  <span class="last-name"><b> {{ lastname}} </b></span>
+  <hr />
+  <br>
+  
+  
+  <br>
+  <p class="head">Personal Information</p>
+  <ul>
+    <span class="email"><b>Email:</b> </span>
+      <span class="email-val">{{ email }} </span>
+    <br>
+      <span class="separator"></span>
+    <span class="pho"><b>Phone: </b></span>
+      <span class="phone-val">{{ phone }}</span>
+  </ul>
+  <br>
+  
+  
+  <br>
+   <p class="head">Address</p>
+  <ul>
+  <div class="addr">{{ address }}</div>
+              <div class="addr">{{ city }}</div>
+              <div class="addr">{{ country }}</div>
+    <br>
+    
+      <p class="sub">Zip Code</p>
+    <div class="desc">{{ zipcode }}</div>
+  </ul>
+  <br>
+  
+  
+  <br>
+  <p class="head">Education</p>
+  <ul>
+   
+    
+     <p class="sub">Basic Education</p>
+    <ul>
+     <div class="pho"><b> High School: </b></div>
+    <div class="desc">{{ highschool }}</div><br>
+     <div class="pho"><b> Intermediate: </b></div>
+                    <div class="desc">{{ inter }}</div>
+    </ul>
+    <br>
+    
+    <div> <p class="sub">Higher Education</p></div>
+  <ul> 
+    <div class="pho"><b> Undergrad/Dilpoma: </b></div>
+                      <div class="desc">{{ undergrad }}</div><br>
+    <div class="pho"><b> Graduation: </b></div>
+    <div class="desc"><div>{{ grad }}</div><br>
+      <div class="pho"><b> Others: </b></div>
+      <div class="desc">{{ others }}</div>
+    </ul>                  
+   <br> 
+   
+    
+    <br>
+     <p class="head">Interests</p>
+  <ul>
+    <li></li>
+  </ul>
+    <br>
+    
+    <br>
+      <p class="head">Skills</p>
+  <ul>
+    <li></li>
+  </ul>
+    <br>
+   
+    
+   <br> 
+  <p class="head">Experience</p>
+    <br>
+   
+
+    <br>
+    <p class="head">Summary</p>
+    <br>
+ 
+</div>
+    <br>
+    <hr />
+
+  
+</body>
+</html>
