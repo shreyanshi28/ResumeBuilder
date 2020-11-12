@@ -14,7 +14,7 @@ def index():
 app.secret_key = 'try'
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'shreyanshi28'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'flasklogin'
 app.config['MYSQL_CURSORCLASS']='DictCursor'
 
