@@ -12,6 +12,13 @@ For SQL, install MySQLWorkbench 8.0 CE to create table and view data entered by 
 If the library pdfkit shows error. Download the .exe file of "wkhtmltopdf" from https://wkhtmltopdf.org/downloads.html .
 Save the file on defualt path. If you change the location, edit it on code app.py
 
+Contributions : 
+
 Front end of form page, help page and choice page by Riya Sharma : github.com/riya-007
 
 Front end of all 3 templates by Samriddhi Shukla : github.com/sam-810
+
+Complete back end and rest of front end done by me (Shreyanshi Singh)
+
+
+
