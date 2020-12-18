@@ -1,5 +1,7 @@
 # Resume Builder
 
+Project Description : This project allows user to enter his/her personal details to generate resume in required template. Initially, there is login and register page. The user needs to register only once and can then login. The desired template is to be chosen and then a form is generated. A form that covers all salient features of resume is to be filled by user. The user can then review how data is entered and then submit final details. A pdf is generated which user can save on local disk. 
+
 This project can be run on local server with following requirements. Use pip install or conda install (when using Anaconda Navigator)
 ```
 pip install flask
